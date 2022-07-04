@@ -1,0 +1,39 @@
+.box {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  line-height: 150px;
+}
+
+/* Hexadecimal */
+.hex {
+  background-color: #ff0000;
+}
+
+/* rgb means red, green, blue */
+.rgb {
+  background-color: rgb(110, 196, 107);
+}
+
+/* "a" means alpha */
+.rgba{
+  background-color: rgba(92, 90, 228, 0.2);
+}
+
+/* hsl means hue, saturation, light */
+.hsl {
+  background-color: hsl(240, 100%, 50%);
+}
+
+/* hsla */
+.hsla{
+  background-color: hsla(49, 100%, 57%, 0.7);
+}
+
+/* predefined name */
+.pred {
+  background-color: salmon;
+}
