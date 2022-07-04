@@ -1,0 +1,29 @@
+/* universal selector, select everything */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* selecting element */
+h1 {
+  color: red;
+}
+
+/* class selector */
+.para1{
+  color: gold;
+}
+
+/* id selector */
+#para2{
+  color: green;
+}
+
+/* group selector */
+h2, p {
+  color: blue;
+}
+
+/* nested selector */
+p span {
+  background-color: brown;
+}
