@@ -1,0 +1,21 @@
+a {
+  /* remove underline */
+  text-decoration: none;
+}
+/* we can use a:link selector for unvisited link */
+
+/* manipulate link appearance when on hover */
+a:hover, a:focus{
+  /* change color on hover */
+  color: hsla(240, 100%, 50%, 0.384);
+}
+
+/* manipulate link appearance when visited */
+a:visited{
+  color: red;
+}
+
+/* manipulate link appearance when on click */
+a:active{
+  color: green;
+}
