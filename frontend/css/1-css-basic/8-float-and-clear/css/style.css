@@ -1,0 +1,25 @@
+.box{
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 30vh;
+  width: 30vh;
+  line-height: 1rem;
+}
+
+.left {
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.right {
+  float: right;
+}
+
+/* .clear{
+  clear: both;
+} */
+
+section {
+  display: flow-root;
+}
