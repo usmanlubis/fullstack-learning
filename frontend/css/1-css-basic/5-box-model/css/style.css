@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  /* set box sizing */
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.container{
+  padding: 20px;
+}
+
+h1{
+  padding: 20px;
+}
+
+p{
+  margin: 10px 20px;
+}
