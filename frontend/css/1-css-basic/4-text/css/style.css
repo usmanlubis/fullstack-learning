@@ -1,0 +1,29 @@
+.text1{
+  /* coloring text */
+  color: purple;
+  /* align text */
+  text-align: right;
+}
+
+.text2 {
+  /* decorating text */
+  text-decoration: line-through;
+}
+
+.text3 {
+  text-transform: capitalize;
+}
+
+.text4 {
+  font-weight: bold;
+}
+
+.text5{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.text6{
+  font-variant: small-caps;
+}
