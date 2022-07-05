@@ -1,0 +1,54 @@
+section{
+  height: 100vh;
+}
+
+.blue{
+  background-color: #00f;
+}
+.red{
+  background-color: #f00;
+}
+.green{
+  background-color: #0f0;
+}
+
+header, footer {
+  color: white;
+  text-align: center;
+  height: 100px;
+  
+}
+
+header{
+  position: sticky;
+  top: 0;
+  font-size: 5rem;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  /* width: 100%; */
+  font-size: 3rem;
+  position: sticky;
+  bottom: 0;
+}
+
+.social{
+  position: fixed;
+  top: 30%;
+  left: 0;
+  padding: 1rem;
+  background-color: whitesmoke;
+  z-index: 1;
+}
+
+a:link, a:visited{
+  color: white;
+  /* text-decoration: none; */
+}
+
+a:hover{
+  color: rgba(255, 255, 255, 0.205);
+}
