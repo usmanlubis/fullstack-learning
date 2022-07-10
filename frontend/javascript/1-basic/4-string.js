@@ -39,4 +39,9 @@ console.log("Mathematics".endsWith("ics")); // true
 // trim (for cropping space in start and end of stings)
 console.log("     usman lubis     ".trim()); // usman lubis
 
+// split make string to array
+let names = ("John,Doe,Jane,Budi");
+let arrNames = names.split(",");
+console.table(arrNames);
+
 // you can find more string method and properties
